@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animes"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtNombreApp"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/app_name"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Usuario"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/usuario"
+        android:hint="Ingresa tu Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@color/black"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Contraseña"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/contraseña"
+        android:hint="Ingresa tu Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@color/black"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/bIngresar"
+        android:layout_width="173dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:background="#51D319"
+        android:text="INGRESAR"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/txtAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="15dp"
+        android:textAlignment="center"
+        android:text="Derecho del Autor © | María José Can Balam"
+        android:textColor="@color/white"
+        android:background="@color/colorTitulo"
+        android:textSize="17sp" />
+</LinearLayout>

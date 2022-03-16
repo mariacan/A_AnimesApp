@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nombreanimes">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fondoper"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Personajes"
+        android:textAlignment="center"
+        android:textColor="@color/colorTitulo"
+        android:textSize="28sp"
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagenf"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/icononaruto" />
+
+        <TextView
+            android:id="@+id/nombref"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="NARUTO"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/obrasf"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPersonaje"
+            android:text="Personajes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagenp"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/iconodemon" />
+
+        <TextView
+            android:id="@+id/nombrep"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Demon Slayer"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/obrasp"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPersonaje"
+            android:text="Personajes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagenl"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/iconobnha" />
+
+        <TextView
+            android:id="@+id/nombrel"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Boku No Hero Academia"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/obrasl"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPersonaje"
+            android:text="Personajes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagenv"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/iconotokyo" />
+
+        <TextView
+            android:id="@+id/nombrev"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Tokyo Revengers"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/obrasv"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPersonaje"
+            android:text="PERSONAJES" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagend"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/iconodragonb" />
+
+        <TextView
+            android:id="@+id/nombred"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Dragon Ball Super"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/obrasd"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPersonaje"
+            android:text="PERSONAJES" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagenfco"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/iconoman" />
+
+        <TextView
+            android:id="@+id/nombrefco"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="ONE PUNCH MAN"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/obrasfco"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPersonaje"
+            android:text="PERSONAJE" />
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
